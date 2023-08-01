@@ -1,0 +1,123 @@
+[
+    
+        {
+          "id": "1",
+          "name": "Heineken",
+          "category":"Bière",
+          "type": "Lager",
+          "quantity": 20,
+          "unit" :1,
+          "price":1.50,
+          "division":[{"name":"0.25","price":1.50,"size":0.25},{"name":"Demi","price":3,"size":0.25},{"name":"Giraffe","price":10,"size":2}],
+          "critical_level":1
+          
+        },
+        {
+          "id": "2",
+          "name": "Guinness",
+          "category":"Bière",
+          "type": "Stout",
+          "quantity": 15,
+          "unit" :1,
+          "price":7.50,
+          "division":[{"name":"0.25","price":1.50,"size":0.25},{"name":"Demi","price":3,"size":0.25},{"name":"Giraffe","price":10,"size":2}],
+          "critical_level":1
+        },
+        {
+          "id": "3",
+          "name": "IPA",
+          "category":"Bière",
+          "type": "India Pale Ale",
+          "quantity": 10,
+          "unit" :1,
+          "price":1.50,
+          "division":[{"name":"0.25","price":1.50,"size":0.25},{"name":"Demi","price":3,"size":0.25},{"name":"Giraffe","price":10,"size":2}],
+          "critical_level":1
+        }
+      
+    
+    ,
+    {
+        "id": "4",
+        "name": "1664",
+        "category":"Bière",
+        "type": "French",
+        "quantity": 10,
+        "unit" :1,
+        "price":1.50,
+        "division":[{"name":"Galopin","price":1.50,"size":0.125},{"name":"Demi","price":3,"size":0.25},{"name":"Bouteille","price":10,"size":2}],
+        "critical_level":1
+      }
+    ,
+  
+        {
+          "id": "5",
+          "name": "Cabernet Sauvignon",
+          "category":"Vin",
+          "type": "Red",
+          "quantity": 25,
+          "unit" :0.75,
+          "price":1.50,
+          "division":[{"name":"0.25","price":1.50,"size":0.25},{"name":"Demi","price":3,"size":0.25},{"name":"Bouteille","price":10,"size":1}],
+          "critical_level":1
+        },
+        {
+          "id": "6",
+          "name": "Chardonnay",
+          "category":"Vin",
+          "type": "White",
+          "quantity": 18,
+          "unit" :0.75,
+          "price":1.50,
+          "division":[{"name":"0.25","price":1.50,"size":0.25},{"name":"Demi","price":3,"size":0.25},{"name":"Bouteille","price":10,"size":1}],
+          "critical_level":1
+        },
+        {
+          "id": "7",
+          "name": "Merlot",
+          "category":"Vin",
+          "type": "Red",
+          "quantity": 12,
+          "unit" :0.75,
+          "price":1.50,
+          "division":[{"name":"0.25","price":1.50,"size":0.25},{"name":"Demi","price":3,"size":0.25},{"name":"Bouteille","price":10,"size":1}],
+          "critical_level":1
+        }
+      
+    ,
+   
+        {
+          "id": "8",
+          "name": "Coca-Cola",
+          "category":"Soda",
+          "type": "Regular",
+          "quantity": 30,
+          "unit" :1,
+          "price":1.50,
+          "division":[{"name":"0.25","price":1.50,"size":0.25},{"name":"Demi","price":3,"size":0.25},{"name":"Bouteille","price":10,"size":2}],
+          "critical_level":1
+        },
+        {
+          "id": "9",
+          "name": "Sprite",
+          "category":"Soda",
+          "type": "Lemon-Lime",
+          "quantity": 22,
+          "unit" :1,
+          "price":1.50,
+          "division":[{"name":"0.25","price":1.50,"size":0.25},{"name":"Demi","price":3,"size":0.25},{"name":"Bouteille","price":10,"size":2}]
+        },
+        {
+          "id": "10",
+          "name": "Fanta",
+          "category":"Soda",
+          "type": "Orange",
+          "quantity": 17,
+          "unit" :1,
+          "price":1.50,
+          "division":[{"name":"0.25","price":1.50,"size":0.25},{"name":"Demi","price":3,"size":0.25},{"name":"Bouteille","price":10,"size":2}],
+          "critical_level":1
+        }
+    
+  ]
+  

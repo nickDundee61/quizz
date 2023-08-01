@@ -1,0 +1,209 @@
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+   
+  
+
+*{
+
+    box-sizing: 0;
+}
+ 
+    
+
+
+.main
+
+{
+
+    border : solid black 2px;
+    border-radius: 5px;
+    display :flex;
+    flex-direction: column;
+    animation: fade-in 0.25s linear;
+   
+}
+.questionContainer
+{
+
+
+border:black solid 1px;
+box-shadow: 2px 2px 5px black;
+height: 80vh;
+
+
+
+    text-shadow: 1px 1px 1px black;
+    animation: fade-in 0.25s linear;
+}
+
+.question{
+    
+padding:10px;
+border :solid black 2px;
+border-radius: 5px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:10px;
+font-size: 1.5rem;
+animation: fade-in 0.25s linear;
+
+
+}
+
+.questionField{
+padding:10px;
+margin:10px;
+width :400px;
+border-radius:5px;
+animation: fade-in 0.25s linear;
+}
+
+.newButton{
+    border :solid black 2px;
+    border-radius: 5px;
+    display: flex;
+justify-content: center;
+align-items: center;
+margin:10px;
+padding:10px;
+cursor: pointer;
+color :white;
+
+}
+
+.okButton{
+    border :solid black 2px;
+    border-radius: 5px;
+    display: flex;
+justify-content: center;
+align-items: center;
+margin:10px;
+padding:10px;
+cursor:pointer;
+color :white;
+}
+
+.editButton{
+    border :solid black 2px;
+    border-radius: 5px;
+    display: flex;
+justify-content: center;
+align-items: center;
+margin:10px;
+padding:10px;
+cursor:pointer;
+color :white;
+}
+
+.buttonContainer{
+
+  margin-bottom: 10px;
+display:flex;
+justify-content: space-between;
+flex-flow: row;
+flex-wrap:wrap;
+margin:10px;
+padding:10px;
+animation: fade-in 0.25s linear;
+
+}
+
+.choices {
+
+    border :solid greenyellow 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+align-items: center;
+color :white;
+animation: fade-in 0.25s linear;
+font-size:1.5rem;
+text-shadow: 2px 2px 1px black;
+padding:10px;
+}
+
+.selector{
+
+display:flex;
+flex-direction: row;
+flex-wrap:wrap;
+
+}
+.selector>div{
+    border :white solid 2px;
+    margin:10px;
+    padding:10px;
+    color:white;
+    cursor: pointer;
+    animation: fade-in 0.25s linear;
+}
+
+.commentaireReponse{
+
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.commentaireReponse>div{
+    
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    color:white;
+
+    animation-name: fade-in-out;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes fade-in-out {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .newQuestionField{
+
+display:flex;
+align-items: center;
+
+  }
+
+  .newQuestionField>input{
+border:2px black solid;
+height: 50px;
+width:400px;
+  }
+
+
+.commentPanel{
+visibility: hidden;
+width:260px;
+height:400px;
+
+
+}

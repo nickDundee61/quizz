@@ -1,0 +1,135 @@
+{
+    "questions": [
+      {
+        "id": 0,
+        "question": "Qu'est-ce qui peut causer un écran bleu de la mort (BSOD) sur Windows ?",
+        "reponses": [
+          "Problème de pilotes",
+          "Erreur de mémoire",
+          "Virus informatique",
+          "Problème de carte graphique"
+        ],
+        "correct": [0, 1],
+        "selector":"checkbox"
+      },
+      {
+        "id": 1,
+        "question": "Quelle est la première étape de dépannage si l'ordinateur ne démarre pas du tout ?",
+        "reponses": [
+          "Vérifier les connexions d'alimentation",
+          "Réinstaller le système d'exploitation",
+          "Changer le disque dur",
+          "Nettoyer le ventilateur du processeur"
+        ],
+        "correct": [0],
+        "selector":"radio"
+      },
+      {
+        "id": 2,
+        "question": "Quel composant est responsable du stockage à long terme des données dans un ordinateur ?",
+        "reponses": [
+          "Processeur",
+          "Mémoire vive (RAM)",
+          "Disque dur",
+          "Carte mère"
+        ],
+        "correct": [2],
+        "selector":"radio"
+      },
+      {
+        "id": 3,
+        "question": "Qu'est-ce qui peut causer un bruit anormal provenant d'un disque dur interne ?",
+        "reponses": [
+          "Secteurs défectueux",
+          "Problème de ventilation",
+          "Carte graphique défectueuse",
+          "Manque de mise à jour du système d'exploitation"
+        ],
+        "correct": [0],
+        "selector":"radio"
+      },
+      {
+        "id": 4,
+        "question": "Quel est le raccourci clavier pour ouvrir le Gestionnaire des tâches sur Windows ?",
+        "reponses": [
+          "Ctrl + Alt + Suppr",
+          "Ctrl + C",
+          "Ctrl + P",
+          "Ctrl + S"
+        ],
+        "correct": [0],
+        "selector":"radio"
+      },
+      {
+        "id": 5,
+        "question": "Quel est le rôle d'une carte réseau dans un ordinateur ?",
+        "reponses": [
+          "Gérer l'alimentation électrique",
+          "Contrôler la température du processeur",
+          "Connecter l'ordinateur à un réseau",
+          "Afficher les graphiques sur l'écran"
+        ],
+        "correct": [2],
+        "selector":"radio"
+      },
+      {
+        "id": 6,
+        "question": "Quel est le principal avantage d'un disque SSD par rapport à un disque dur traditionnel ?",
+        "reponses": [
+          "Plus grande capacité de stockage",
+          "Vitesse de lecture/écriture plus rapide",
+          "Meilleure durabilité",
+          "Compatibilité avec tous les systèmes d'exploitation"
+        ],
+        "correct": [1,3],
+        "selector":"checkbox"
+      },
+      {
+        "id": 7,
+        "question": "Quel est le moyen le plus courant de se débarrasser des logiciels malveillants sur un ordinateur ?",
+        "reponses": [
+          "Mettre à jour le système d'exploitation",
+          "Supprimer les fichiers temporaires",
+          "Utiliser un antivirus",
+          "Réinstaller tous les logiciels"
+        ],
+        "correct": [2],
+        "selector":"checkbox"
+      },
+      {
+        "id": 8,
+        "question": "Quel est le composant responsable de l'affichage des images sur l'écran d'un ordinateur ?",
+        "reponses": [
+          "Processeur",
+          "Carte son",
+          "Carte graphique",
+          "Disque dur"
+        ],
+        "correct": [2],
+        "selector":"radio"
+      },
+      {
+        "id": 9,
+        "question": "Qu'est-ce qui peut causer un ordinateur portable à surchauffer ?",
+        "reponses": [
+          "Utilisation excessive du processeur",
+          "Manque de mémoire RAM",
+          "Mise à jour du système d'exploitation",
+          "Écran fissuré"
+        ],
+        "correct": [0],
+        "selector":"checkbox"
+      },    {
+        "id": 10,
+        "question": "Que veut dire BIOS?",
+        "reponses": [
+    "Basic Input Output System"
+        ],
+        "correct": [0],
+        "selector":"string"
+      }
+    
+    
+    ]
+  }
+  

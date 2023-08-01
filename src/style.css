@@ -1,0 +1,418 @@
+
+*{box-sizing: 0;}
+body{
+
+  margin:0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+
+
+margin:10px 300px 10px 300px;
+
+    position: relative;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(133,85,112,1) 35%, rgba(0,212,255,1) 100%);
+    border: solid black 5px;
+    @media (max-width: 1610px) {
+      margin:10px 100px 10px 100px;
+      
+      
+           }
+           @media (max-width: 1210px) {
+            margin:10px 25px 10px 25px;
+            
+            
+                 }
+    @media (max-width: 650px) {
+width :100%;
+margin:0;
+border : green solid 1px;
+height :100vh;
+
+
+     }
+
+
+}
+.buisiness{
+
+    display:flex;
+    flex-direction: row;
+  
+    align-items: center;
+    @media (min-width: 1100px) {
+     
+    
+      justify-content: space-between;
+      
+           }
+    @media (max-width: 1100px) {
+      flex-direction: column;
+    
+      align-items: center;
+      
+           }
+      
+}
+.detailedSelectionMaster{
+visibility: hidden;
+margin:5%;
+
+}
+.detailedSelection {
+  cursor: pointer;
+border : solid white 2px;
+border-radius: 5px;
+
+padding: 5px;
+margin:5px;
+background-color: black;
+color:white;
+height:fit-content;
+
+
+
+}
+.detailedSelectionBlock {
+  
+  display:flex;
+  flex-direction: row;
+ 
+  padding:5px;
+ 
+  justify-content: space-between;
+  border : solid black 2px;
+  border-radius: 5px;
+  
+
+  }
+
+.category {
+
+display:flex;
+justify-content: space-evenly;
+color :white ;
+text-align: center;
+margin :5px;
+box-shadow: 5px 5px 5px black;
+border :solid white 2px;
+padding: 5px;
+border-top-left-radius: 5px;
+font-size: 1.5rem;
+cursor: pointer;
+animation-name: example;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+
+
+}
+.categoryContainer{
+display:flex;
+justify-content: center;
+
+
+  border:solid black 2px;
+  box-shadow: 2px 2px 3px black;
+}
+.header {
+display :flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+width: auto;
+height :auto;
+margin :5px;
+border : white solid 2px;
+
+}
+
+.boardPanel{
+
+display: flex;
+flex:2;
+justify-content: space-around;
+align-items: center;
+border:solid black 5px;
+
+}
+
+.boardPanelButton{
+
+    border : green solid 2px;
+    color :white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+margin :0;
+    border : yellow solid 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: space-between;
+    flex:1;
+    flex-wrap: wrap;
+   
+   
+    margin :5px;
+    align-items: center;
+ box-shadow: 5px 5px 5px rgb(5, 5, 5);
+
+}
+
+.product{
+
+ display: flex;
+   align-items: center;
+   text-align: center;
+    justify-content: center;
+    margin:auto;
+
+    color :white;
+border : white 2px solid;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+margin:5px;
+cursor: pointer;
+animation-name: example;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+transition: color 0.5s;
+transition: background-color 0.5s;
+
+
+
+
+
+}
+.product:hover {
+
+  color: white;
+  background-color: black;
+}
+
+.ticket{
+  font-size: 0.5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+    flex:1;
+    border: solid 2px greenyellow;
+    border-radius: 5px;
+    margin: 5px;
+    width: auto;
+    color:white;
+    
+}
+
+.validate--ticket{
+
+    border :solid greenyellow 2px;
+    padding :10px;
+    border-radius: 5px;
+    color : greenyellow;
+    text-align: center;
+    cursor: pointer;
+}
+
+.line{
+
+    display:flex;
+    justify-content: space-between;
+    border : black solid 2px;
+    border-radius: 5px;
+    margin :2px;
+    cursor: pointer;
+}
+
+.totalPrice{
+  padding:5px;
+  font-size:1.5rem;
+    border : black solid 2px;
+    border-radius: 5px;
+    margin :2px;
+    color :white;
+
+}
+
+.login{
+     display :flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+    border :rgb(10, 247, 10) solid 2px;
+    border-radius: 5px;
+    margin:5px;
+    padding: 5px;
+}
+
+table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  td, th {
+    font-size:1.5rem;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+    color : white;
+    cursor:pointer;
+  }
+
+
+  .tableRowSpecial{
+
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+    color : white;
+    cursor:pointer;
+
+
+  }
+  .tableRowSpecial>td{
+    font-size: 1rem;
+
+  }
+ .tableRowSpecial:hover{
+
+  background-color: coral;
+
+ }
+  .editPanel{
+    display:flex;
+    flex-direction: column;
+    visibility: hidden;
+    margin-top:10%;
+    position :absolute;
+    width : auto;
+    height: auto;
+    background-color :darkcyan;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding : 10px;
+    opacity: 0.9;
+
+
+  }
+
+  .editPanelLabel{
+    width: auto;
+    height: auto;
+    align-items: center;
+display:flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+    margin: 5px;
+    color : white;
+
+  }
+
+  .editPanelInput{
+    text-align: center;
+
+  }
+  .editPanel--division{
+
+display:flex;
+flex-direction: column;
+
+
+  }
+  
+  .okButton--editPanel{
+
+text-align: center;
+
+cursor: pointer;
+color:white;
+position: relative;
+border: solid black 5px;
+
+
+  }
+  .nouveauButton--editPanel{
+
+    text-align: center;
+    
+    cursor: pointer;
+    color:white;
+    position: relative;
+    border: solid black 5px;
+
+  }
+
+  .labelInput--editPanel{
+
+    display: inline-block;
+    flex-direction: row;
+    
+    justify-content: flex-start;
+    border:solid black 2px;
+    border-radius: 5px;
+  }
+
+  .infoOnLabel {
+    font-size: 2rem;
+color : white;
+align-items: center;
+text-align: center;
+display :flex;
+flex-direction: column;
+
+
+  }
+
+  @keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  .logOff{
+    display: flex;
+    width: 50px;
+    height: 50px;
+align-items: center;
+text-align: center;
+justify-content: center;
+border :2px solid red;
+border-radius: 50%;
+color:red;
+margin:5px;
+cursor: pointer;
+
+  }
+
+  .WelcomePromptBlock{
+    display:flex;
+    flex-direction: column;
+
+
+  }
+  .WelcomePromptBlock>div{
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin:5px;
+    color:white;
+    border:white solid 2px;
+    border-radius: 5px;
+    background-color: black;
+
+
+  }
+ /* tr:nth-child(even) {
+    background-color: #dddddd;
+  }*/
+  
