@@ -381,7 +381,7 @@ setMasterSelector("checkbox")
         </div></div>)
 }
 
-
+//commit
 const QuestionField = ({ question, editMode, setQuestion,newQuestion,setNewQuestion, id,nouveau }) => {
 
     const editQuestion = useCallback((e) => {
